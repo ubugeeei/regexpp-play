@@ -1,0 +1,17 @@
+{
+  "name": "regexpp-play",
+  "module": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "out": "bun run src/main.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@eslint-community/regexpp": "^4.10.0"
+  }
+}
